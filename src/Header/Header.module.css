@@ -1,0 +1,43 @@
+.header {
+  grid-area: h;
+  background-color: black;
+  padding: 2vw;
+ 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item a{
+  color: rgb(80, 83, 77);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.item p{
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  color: red
+}
+
+.item a.active{
+  color: white;
+}
+
+.link {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.link .item{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+button{
+  font-size: 3vw;
+}

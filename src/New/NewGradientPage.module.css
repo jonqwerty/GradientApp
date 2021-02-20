@@ -1,0 +1,14 @@
+input {
+  height: 5vw;
+  width: 18vw;
+  margin: 1vw;
+  font-size: 3vw;
+  
+}
+
+.but{
+  width: 30vw;
+margin: 0px auto;
+display: block;
+
+}

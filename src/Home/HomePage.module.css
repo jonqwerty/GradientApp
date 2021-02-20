@@ -1,0 +1,42 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(to right, #4661af, #d51669);
+  width: 50vw;
+  height: 10vw;
+  margin: 3vw auto;
+   
+}
+
+.container {
+  width: 50vw;
+  height: 10vw;
+  margin: 2vw auto;
+  position:relative;
+}
+
+.buttonDelete {
+  width: 5vw;
+  height: 5vw;
+  border-radius: 3vw;
+  position:absolute;
+  top: -1vw;
+  right: -2vw;
+  border: none; 
+  outline: none ;
+}
+
+.buttonEdit {
+  width: 5vw;
+  height: 5vw;
+  border-radius: 3vw;
+  position:absolute;
+  bottom: -1vw;
+  right: -2vw;
+  border: none; 
+  outline: none ;
+}
+
+
