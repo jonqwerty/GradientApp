@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/GradientApp/static/css/main.3902b18d.chunk.css",
-    "main.js": "/GradientApp/static/js/main.15c0decb.chunk.js",
-    "main.js.map": "/GradientApp/static/js/main.15c0decb.chunk.js.map",
+    "main.css": "/GradientApp/static/css/main.9f43289f.chunk.css",
+    "main.js": "/GradientApp/static/js/main.bdb130a4.chunk.js",
+    "main.js.map": "/GradientApp/static/js/main.bdb130a4.chunk.js.map",
     "runtime-main.js": "/GradientApp/static/js/runtime-main.4b4322fa.js",
     "runtime-main.js.map": "/GradientApp/static/js/runtime-main.4b4322fa.js.map",
     "static/js/2.683e8966.chunk.js": "/GradientApp/static/js/2.683e8966.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.981da508.chunk.js": "/GradientApp/static/js/3.981da508.chunk.js",
     "static/js/3.981da508.chunk.js.map": "/GradientApp/static/js/3.981da508.chunk.js.map",
     "index.html": "/GradientApp/index.html",
-    "static/css/main.3902b18d.chunk.css.map": "/GradientApp/static/css/main.3902b18d.chunk.css.map",
+    "static/css/main.9f43289f.chunk.css.map": "/GradientApp/static/css/main.9f43289f.chunk.css.map",
     "static/js/2.683e8966.chunk.js.LICENSE.txt": "/GradientApp/static/js/2.683e8966.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4b4322fa.js",
     "static/js/2.683e8966.chunk.js",
-    "static/css/main.3902b18d.chunk.css",
-    "static/js/main.15c0decb.chunk.js"
+    "static/css/main.9f43289f.chunk.css",
+    "static/js/main.bdb130a4.chunk.js"
   ]
 }
