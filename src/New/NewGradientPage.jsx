@@ -41,13 +41,13 @@ const NewGradientPage = () => {
     return(
         <div>
             <form onSubmit={handleSubmit}>
-                <input  type="text"  onChange={handleChangeHexOne}/>
-                <input type="text"  onChange={handleChangeHexTwo}/>
+                <input title="hexOne" type="text"  onChange={handleChangeHexOne}/>
+                <input title="hexTwo" type="text"  onChange={handleChangeHexTwo}/>
 
             {
                 hexOne.match(/^#([A-Fa-f0-9]{3}|[A-Fa-f0-9]{6})$/) && hexTwo.match(/^#([A-Fa-f0-9]{3}|[A-Fa-f0-9]{6})$/)
-                ?<input className={s.but} type="submit" value='Add Gradient' />  
-                :<input className={s.but} type="submit" value='Add Gradient'disabled />
+                ?<input title="b" className={s.but} type="submit" value='Add Gradient' />  
+                :<input title="b" className={s.but} type="submit" value='Add Gradient'disabled />
             }
             </form>
            
