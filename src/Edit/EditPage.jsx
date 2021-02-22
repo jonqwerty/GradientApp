@@ -57,13 +57,13 @@ const EditPage = () => {
     return(
         <div>
             <form onSubmit={handleSubmit}>
-                <input type="text" value = {hexOne} onChange={handleChangeHexOne}/>
-                <input type="text" value = {hexTwo} onChange={handleChangeHexTwo}/>
+                <input title="hexOne" type="text" value = {hexOne} onChange={handleChangeHexOne}/>
+                <input title="hexTwo" type="text" value = {hexTwo} onChange={handleChangeHexTwo}/>
 
             {
                 hexOne.match(/^#([A-Fa-f0-9]{3}|[A-Fa-f0-9]{6})$/) && hexTwo.match(/^#([A-Fa-f0-9]{3}|[A-Fa-f0-9]{6})$/)
-                ?<input className={s.but} type="submit" value='Edit Gradient' />  
-                :<input className={s.but} type="submit" value='Add Gradient'disabled />
+                ?<input data-testid="b" className={s.but} type="submit" value='Edit Gradient' />  
+                :<input data-testid="b" className={s.but} type="submit" value='Add Gradient'disabled />
             }
             </form>
            
